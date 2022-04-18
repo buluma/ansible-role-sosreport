@@ -1,5 +1,5 @@
 ---
-image: "robertdebock/github-action-molecule:4.0.6"
+image: "buluma/github-action-molecule:4.0.6"
 
 services:
   - docker:dind
@@ -11,22 +11,44 @@ variables:
 molecule:
   script:
     - image=${image} tag=${tag} molecule test
-  rules:
-    - if: $CI_COMMIT_REF_NAME == "master"
   retry: 1
   parallel:
     matrix:
       - image: "enterpriselinux"
         tag: "latest"
-      - image: "fedora"
+      - image: "fedora-systemd"
         tag: "34"
-      - image: "fedora"
+      - image: "fedora-systemd"
         tag: "latest"
-      - image: "fedora"
-        tag: "rawhide"
+
+testing:
+  script:
+    - image=${image} tag=${tag} molecule test
+  rules:
+    - if: $CI_COMMIT_REF_NAME == "testing"
+  retry: 1
+  parallel:
+    matrix:
+      - image: "enterpriselinux"
+        tag: "latest"
+      - image: "fedora-systemd"
+        tag: "34"
+      - image: "fedora-systemd"
+        tag: "latest"
 
 galaxy:
   script:
-    - ansible-galaxy role import --api-key ${GALAXY_API_KEY} ${CI_PROJECT_NAMESPACE} ${CI_PROJECT_NAME}
-  rules:
-    - if: $CI_COMMIT_TAG != null
+    - ansible-galaxy role info buluma.sosreport
+
+role_testing:
+  script:
+    - image=${image} tag=${tag} ansible-galaxy install buluma.sosreport
+  retry: 1
+  parallel:
+    matrix:
+      - image: "enterpriselinux"
+        tag: "latest"
+      - image: "fedora-systemd"
+        tag: "34"
+      - image: "fedora-systemd"
+        tag: "latest"
