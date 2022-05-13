@@ -1,5 +1,21 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-sosreport/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-sosreport/compare/0.1.1...HEAD)
+
+**Closed issues:**
+
+- Add to tracker [\#1](https://github.com/buluma/ansible-role-sosreport/issues/1)
+
+**Merged pull requests:**
+
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.4 to 1.0.5 [\#2](https://github.com/buluma/ansible-role-sosreport/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [0.1.1](https://github.com/buluma/ansible-role-sosreport/tree/0.1.1) (2022-04-25)
+
+[Full Changelog](https://github.com/buluma/ansible-role-sosreport/compare/0.1.0...0.1.1)
+
 ## [0.1.0](https://github.com/buluma/ansible-role-sosreport/tree/0.1.0) (2022-04-18)
 
 [Full Changelog](https://github.com/buluma/ansible-role-sosreport/compare/57ec38a47d83c8bd153a54afd78a6a9833cc8866...0.1.0)
