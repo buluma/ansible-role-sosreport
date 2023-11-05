@@ -2,9 +2,9 @@
 
 Install, run and collect sosreports from your systems.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-sosreport/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-sosreport/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-sosreport/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-sosreport)|[![quality](https://img.shields.io/ansible/quality/58839)](https://galaxy.ansible.com/buluma/sosreport)|[![downloads](https://img.shields.io/ansible/role/d/58839)](https://galaxy.ansible.com/buluma/sosreport)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-sosreport.svg)](https://github.com/buluma/ansible-role-sosreport/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-sosreport.svg)](https://github.com/buluma/ansible-role-sosreport/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-sosreport.svg)](https://github.com/buluma/ansible-role-sosreport/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-sosreport/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-sosreport/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-sosreport/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-sosreport)|[![downloads](https://img.shields.io/ansible/role/d/4839)](https://galaxy.ansible.com/buluma/sosreport)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-sosreport.svg)](https://github.com/buluma/ansible-role-sosreport/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-sosreport.svg)](https://github.com/buluma/ansible-role-sosreport/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-sosreport.svg)](https://github.com/buluma/ansible-role-sosreport/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
