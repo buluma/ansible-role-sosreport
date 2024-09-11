@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-sosreport/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-sosreport/compare/24.3.31...HEAD)
+
+**Merged pull requests:**
+
+- Bump docker/login-action from 3.2.0 to 3.3.0 [\#21](https://github.com/buluma/ansible-role-sosreport/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.3.31](https://github.com/buluma/ansible-role-sosreport/tree/24.3.31) (2024-03-26)
 
 [Full Changelog](https://github.com/buluma/ansible-role-sosreport/compare/0.2.0...24.3.31)
