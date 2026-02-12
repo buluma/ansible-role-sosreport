@@ -1,21 +1,17 @@
----
 galaxy_info:
   author: buluma
   role_name: sosreport
   description: Install, run and collect sosreports from your systems.
   license: Apache-2.0
   company: none
-  min_ansible_version: "2.12"
-
+  min_ansible_version: '2.12'
   platforms:
-    - name: EL
-      versions:
-        - "8"
-    - name: Fedora
-      versions:
-        - all
-
+  - name: EL
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
   galaxy_tags:
-    - sosreport
-
+  - sosreport
 dependencies: []

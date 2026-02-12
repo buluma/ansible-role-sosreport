@@ -5,4 +5,4 @@
 repository:
   description: Install, run and collect sosreports from your systems.
   homepage: https://buluma.github.io/
-  topics: sosreport, ansible, molecule, tox, playbook
+  topics: sosreport, ansible, molecule, playbook
