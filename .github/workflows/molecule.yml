@@ -45,7 +45,13 @@ jobs:
           - image: "enterpriselinux"
             tag: "latest"
           - image: "docker-molecule-images"
-            tag: "latest"
+            tag: "fedora_latest"
+          - image: "docker-molecule-images"
+            tag: "fedora42"
+          - image: "docker-molecule-images"
+            tag: "fedora44"
+          - image: "docker-molecule-images"
+            tag: "fedora45"
     steps:
       - name: checkout
         uses: actions/checkout@v6
