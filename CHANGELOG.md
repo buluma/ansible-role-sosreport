@@ -11,6 +11,7 @@
 
 **Merged pull requests:**
 
+- Bump docker/setup-buildx-action from 3 to 4 [\#24](https://github.com/buluma/ansible-role-sosreport/pull/24) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.7.0 to 24.9.0 [\#22](https://github.com/buluma/ansible-role-sosreport/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump docker/login-action from 3.2.0 to 3.3.0 [\#21](https://github.com/buluma/ansible-role-sosreport/pull/21) ([dependabot[bot]](https://github.com/apps/dependabot))
 
